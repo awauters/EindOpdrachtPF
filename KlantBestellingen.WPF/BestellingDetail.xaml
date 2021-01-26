@@ -35,6 +35,8 @@
             <DataGrid.Columns>
                 <DataGridTextColumn Header="{x:Static langs:Translations.Name}" Binding="{Binding Naam}" MinWidth="200"/>
                 <DataGridTextColumn Header="{x:Static langs:Translations.Price}" Binding="{Binding Prijs}" MinWidth="200"/>
+                <DataGridTextColumn Header="{x:Static langs:Translations.OrderNumber}" Binding="{Binding BestellingsNummer}" MinWidth="200"/>
+                <DataGridTextColumn Header="{x:Static langs:Translations.OrderPaid?}" Binding="{Binding BestellingBetaald?}" MinWidth="200"/>
                 <DataGridTemplateColumn Header="" Width="100">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
